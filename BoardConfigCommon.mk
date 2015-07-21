@@ -204,3 +204,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/cyanogen/msm8916-common/BoardConfigVendor.mk
+
+# TWRP
+DEVICE_RESOLUTION := 720x1280
+
+# SaberMod
+-include vendor/fusion/config/sm.mk
